@@ -21,14 +21,14 @@ Modern, responsive landing page for IToolbox startup company featuring:
 
 ### Option 1: Direct File Access (Simplest)
 ```bash
-cd "/Users/nicomortel/Desktop/Nico M. Simulation Lab/itoolbox_lab/itoolbox_landing/landing_page"
+cd "<type here the directory path to your landing_page folder>"
 open index.html
 ```
 
 ### Option 2: Local HTTP Server (Recommended)
 ```bash
 # Using Python
-cd "/Users/nicomortel/Desktop/Nico M. Simulation Lab/itoolbox_lab/itoolbox_landing/landing_page"
+cd "<type here the directory path to your landing_page folder>"
 python3 -m http.server 8000
 
 # Access at: http://localhost:8000
@@ -51,7 +51,8 @@ landing_page/
 ├── js/
 │   └── main.js         # Interactivity and analytics
 └── assets/             # Images, icons, media (to be added)
-    └── favicon.ico     # (Add your favicon)
+    └── icons           # (Add your favicon)
+    └── images          # (Add your images, e.g. logo)
 ```
 
 ---
